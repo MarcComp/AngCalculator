@@ -1,0 +1,21 @@
+:host {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: orange;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  font-size: 3vmin;
+  /* To prevent button text highlighting when repeatedly clicked */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+:host:hover {
+  background-color: #FF8000;
+}

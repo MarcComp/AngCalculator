@@ -1,0 +1,10 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: red;
+  width: 60vmin;
+  height: 80vmin;
+  border-radius: 5%;
+}

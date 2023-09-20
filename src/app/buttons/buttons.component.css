@@ -1,0 +1,15 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  ". . . ."
+  ". . . ."
+  ". . . ."
+  ". . . ."
+  ". . . y"
+  ". . . y";
+  width: 90%;
+  height: 70%;
+  gap: 4%;
+}

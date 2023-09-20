@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: green;
+  width: 90%;
+  height: 15%;
+  text-align: right;
+  /* top right bottom left */
+  font-size: 8vmin;
+  padding: 0 0.075em 0 0.075em;
+  /* box-sizing property to keep the width, no matter the amount of padding */
+  box-sizing: border-box;
+}
